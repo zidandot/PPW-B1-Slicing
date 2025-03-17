@@ -1,0 +1,244 @@
+*{
+    font-family: "Kantumruy Pro";
+    margin: 0;
+    color: white;
+}
+#logo{
+    width: 100px;
+    height: 55px;
+}
+ul{
+    display: flex;
+    width: 600px;
+    font-size: 20px;
+    gap: 190px;
+}
+.navi{
+    background-color: #74929F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+.satu{
+    background-color: #74929F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 676px;
+    font-size: 25px;
+}
+#hasatu{
+    font-size: 120px;
+    height: 300px;
+}
+#satudua{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+}
+.satu button{
+    width: 200px;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    background-color: #A4B3C1;
+    font-size: 20px;
+}
+.dua{
+    background-color: #B5B5B5;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    height: 504px;
+    gap: 200px;
+}
+#duadua{
+    align-self: center;
+    height: 310px;
+}
+#duadua h1{
+    font-size: 48px;
+}
+#duadua p{
+    font-size: 27px;
+}
+.dua img{
+    align-self: center;
+    height: 310px;
+    border-radius: 30px;
+}
+.tiga{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 1094px;
+    justify-content: center;
+    background-color: #89A0AA;
+    padding: 128px;
+    padding-top: 100px;
+}
+.tiga h1{
+    height: 3000px;
+    font-size: 48px;
+}
+.kotakkotak{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.kotakkotak img{
+    width: 82px;
+}
+.tigatiga{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.tigatiga .kotak3{
+    width: 300px;
+    height: 370px;
+    border-radius: 30px;
+    padding: 36px;
+    background-color: white;
+}
+.judul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 70px;
+}
+.kotak3 h3, 
+.kotak3 li{
+    color: black;
+}
+.kotak3 h3{
+    height: 90px;
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tigatiga ul{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    gap: 18px;
+}
+ul{
+    width: fit-content;
+}
+li{
+    width: fit-content;
+}
+.empat{
+    background-color: #B5B5B5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 503px;
+}
+.empat h1{
+    padding-bottom: 70px;
+    font-size: 48px;
+}
+.empat .kotakempat{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+.empatempat{
+    width: 240px;
+    height: 240px;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    padding: 20px;
+}
+.empatempat h4, 
+.empatempat p{
+    color: black;
+}
+.empatempat img{
+    width: 87px;
+    height: 66px;
+    border-radius: 15px;
+}
+.lima{
+    background-color: #74929F;
+    height: 627px;
+    padding-top: 100px;
+}
+.lima h1{
+    text-align: center;
+    font-size: 48px;
+    height: 150px;
+}
+.lima div{
+    margin: 10px;
+    padding-left: 150px;
+    padding-bottom: 15px;
+}
+.lima h4{
+    font-size: 27px;
+}
+.lima p{
+    font-size: 20px;
+}
+.enam{
+    background-color: #89A0AA;
+    height: 295px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 400px;
+}
+.enam button{
+    width: 222px;
+    height: 66.5px;
+    border-radius: 100px;
+    border: none;
+    font-size: 20px;
+    background-color: #A4B3C1;
+}
+.enam div h1{
+    font-size: 48px;
+}
+.enam div p{
+    font-size: 20px;
+}
+footer{
+    background-color: #B5B5B5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 150px;
+    padding: 50px;
+    gap: 200px;
+}
+footer div{
+    width: 30%;
+    text-wrap: wrap;
+    padding-left: 70px;
+}
+footer h4{
+    font-size: 27px;
+}
+footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
